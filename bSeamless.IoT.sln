@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bSeamless.IoT.RestApiNServiceBusProxy", "bSeamless.IoT.RestApiNServiceBusProxy\bSeamless.IoT.RestApiNServiceBusProxy.csproj", "{972D86E5-6A53-44E0-B3F9-75FCEEDFCE33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bSeamless.IoT.RestApiProxy", "bSeamless.IoT.RestApiProxy\bSeamless.IoT.RestApiProxy.csproj", "{E72DD8C7-9466-4A4A-A4A1-B0DE501673B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "REST API", "REST API", "{50FFF31C-BFBC-47BB-8028-7E047B3B608F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bSeamless.IoT.API.REST.Proxy.Interfaces", "bSeamless.IoT.API.REST.Proxy.Interfaces\bSeamless.IoT.API.REST.Proxy.Interfaces.csproj", "{E17B73D1-D7FD-4FE9-A564-CC0F95F615DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bSeamless.IoT.API.REST.Proxy.OWIN", "bSeamless.IoT.API.REST.Proxy.OWIN\bSeamless.IoT.API.REST.Proxy.OWIN.csproj", "{03B56347-FA60-4E95-BD67-6499259F0468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bSeamless.IoT.API.REST.Proxy.ConsoleHost", "bSeamless.IoT.API.REST.Proxy.ConsoleHost\bSeamless.IoT.API.REST.Proxy.ConsoleHost.csproj", "{F66954AA-AA71-4F23-B068-8AD6E4672EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bSeamless.IoT.Messaging.WebRequestGateway.Interfaces", "bSeamless.IoT.Messaging.WebRequestGateway.Interfaces\bSeamless.IoT.Messaging.WebRequestGateway.Interfaces.csproj", "{AEE15241-2EAE-4B02-A13B-B95BC42B54FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bSeamless.IoT.Messaging.WebRequestGateway.MassTransit", "bSeamless.IoT.Messaging.WebRequestGateway.MassTransit\bSeamless.IoT.Messaging.WebRequestGateway.MassTransit.csproj", "{07DCF1D1-5554-4B61-8249-3E63B9BB7C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bSeamless.IoT.Messaging.Contracts", "bSeamless.IoT.Messaging.Contracts\bSeamless.IoT.Messaging.Contracts.csproj", "{23DB4267-C121-410F-BB64-7598FA05344E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{361C3F02-D1BF-423B-8C10-AE20E2CD7164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{473EB1DB-35D5-46C1-AC60-8219160C2919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{972D86E5-6A53-44E0-B3F9-75FCEEDFCE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972D86E5-6A53-44E0-B3F9-75FCEEDFCE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972D86E5-6A53-44E0-B3F9-75FCEEDFCE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972D86E5-6A53-44E0-B3F9-75FCEEDFCE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72DD8C7-9466-4A4A-A4A1-B0DE501673B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72DD8C7-9466-4A4A-A4A1-B0DE501673B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72DD8C7-9466-4A4A-A4A1-B0DE501673B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72DD8C7-9466-4A4A-A4A1-B0DE501673B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17B73D1-D7FD-4FE9-A564-CC0F95F615DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17B73D1-D7FD-4FE9-A564-CC0F95F615DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17B73D1-D7FD-4FE9-A564-CC0F95F615DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17B73D1-D7FD-4FE9-A564-CC0F95F615DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B56347-FA60-4E95-BD67-6499259F0468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B56347-FA60-4E95-BD67-6499259F0468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B56347-FA60-4E95-BD67-6499259F0468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B56347-FA60-4E95-BD67-6499259F0468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66954AA-AA71-4F23-B068-8AD6E4672EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66954AA-AA71-4F23-B068-8AD6E4672EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66954AA-AA71-4F23-B068-8AD6E4672EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66954AA-AA71-4F23-B068-8AD6E4672EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE15241-2EAE-4B02-A13B-B95BC42B54FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE15241-2EAE-4B02-A13B-B95BC42B54FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE15241-2EAE-4B02-A13B-B95BC42B54FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE15241-2EAE-4B02-A13B-B95BC42B54FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DCF1D1-5554-4B61-8249-3E63B9BB7C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DCF1D1-5554-4B61-8249-3E63B9BB7C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DCF1D1-5554-4B61-8249-3E63B9BB7C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DCF1D1-5554-4B61-8249-3E63B9BB7C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23DB4267-C121-410F-BB64-7598FA05344E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DB4267-C121-410F-BB64-7598FA05344E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DB4267-C121-410F-BB64-7598FA05344E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DB4267-C121-410F-BB64-7598FA05344E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E17B73D1-D7FD-4FE9-A564-CC0F95F615DD} = {473EB1DB-35D5-46C1-AC60-8219160C2919}
+		{03B56347-FA60-4E95-BD67-6499259F0468} = {473EB1DB-35D5-46C1-AC60-8219160C2919}
+		{F66954AA-AA71-4F23-B068-8AD6E4672EC5} = {473EB1DB-35D5-46C1-AC60-8219160C2919}
+		{AEE15241-2EAE-4B02-A13B-B95BC42B54FC} = {361C3F02-D1BF-423B-8C10-AE20E2CD7164}
+		{07DCF1D1-5554-4B61-8249-3E63B9BB7C23} = {361C3F02-D1BF-423B-8C10-AE20E2CD7164}
+		{23DB4267-C121-410F-BB64-7598FA05344E} = {361C3F02-D1BF-423B-8C10-AE20E2CD7164}
+		{473EB1DB-35D5-46C1-AC60-8219160C2919} = {50FFF31C-BFBC-47BB-8028-7E047B3B608F}
+	EndGlobalSection
+EndGlobal
